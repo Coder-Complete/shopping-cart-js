@@ -1,5 +1,5 @@
 next
-- make shopping cart project from figma
+- x - make shopping cart project from figma
   - x - explain event listeners
   - x - talk about BOM
   - x - refactoring (shorter js)
@@ -10,11 +10,10 @@ next
 - x - refactor our js code for cart
 - x - style like amazon
 - x - transition the solution to a data approach
-- state
-  - first simple count example
-  - then do cart page
-- array methods (map, filter, reduce?, indexOf, findIndex, find?, forEach?) & arrow fxns
 - data presentation
-- dealing with data / async / apis
+- apis
+- array methods (map, filter, reduce?, indexOf, findIndex, find?, forEach?) & arrow fxns
+- localstorage / sessionstorage
+  - maybe do cart for shopping cart site?
 - constructors / prototypes
   - constructor methods (e.g. Array.from())
