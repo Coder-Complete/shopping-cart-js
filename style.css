@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+header {
+  background-color: #131921;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+}
+
+.search-container {
+  background-color: white;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+header input {
+  border: none;
+}
+
+header button {
+  height: 100%;
+  width: 30px;
+  border: none;
+  background-color: #febd68;
+}
+
+.subheader {
+  background-color: #222f3e;
+  padding: 15px;
+}
+
+.subheader ul {
+  display: flex;
+}
+
+.subheader li {
+  color: white;
+  margin: 0px 10px;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.fa-cart-shopping {
+  font-size: 25px;
+  color: white;
+}
+
+.total {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 13px;
+}
+
+main ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  list-style-type: none;
+}
+
+main li:hover {
+  scale: 1.1;
+}
+
+ul li div {
+  display: flex;
+}
+
+ul li div span {
+  margin: 0 5px;
+}
+
+main li p {
+  margin-right: 10px;
+}
