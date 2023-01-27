@@ -10,10 +10,20 @@ next
 - x - refactor our js code for cart
 - x - style like amazon
 - x - transition the solution to a data approach
-- data presentation
-- apis
-- array methods (map, filter, reduce?, indexOf, findIndex, find?, forEach?) & arrow fxns
+- js format on save setting ^ put earlier
+- x - data presentation
+  - x - promises deep dive
+  - x - quick api demo
+- api practice
+  - enter a pokemon website
+    - explain query params and endpoints
+    - pagination - continuous scroll of pokemon
+  - jsontypicode website
+    - first explain why this api is nice - basically acts as a mock db
+    - then first teach http methods
+- arrow fxns & array methods (map, filter, reduce?, indexOf, findIndex, find?, forEach?)
 - localstorage / sessionstorage
   - maybe do cart for shopping cart site?
-- constructors / prototypes
+- debugging breakpoints
+- constructors / prototypes (maybe just before react or for interview phase)
   - constructor methods (e.g. Array.from())
