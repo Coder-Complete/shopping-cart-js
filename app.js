@@ -1,3 +1,5 @@
+let domain = window.location.origin;
+
 let toysData = [
   {
     imgSrc: "assets/hello-kitty.jpg",
@@ -20,6 +22,7 @@ let toysData = [
     name: "Trophy",
   },
 ];
+
 let cart = [];
 
 function getClickedToyInCart(toyName) {
@@ -179,4 +182,9 @@ searchButton.addEventListener("click", function () {
       currentnameText.parentElement.parentElement.style.display = "none";
     }
   }
+});
+
+document.querySelector(".cart-container").addEventListener("click", () => {
+  localStorage.setItem("cart", JSON.stringify(cart));
+  window.location.href = `${domain}/cart.html`;
 });
