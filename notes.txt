@@ -17,3 +17,9 @@ next
   - maybe do cart for shopping cart site?
 - constructors / prototypes
   - constructor methods (e.g. Array.from())
+
+
+- just have localstorage left
+- and debugging
+- and js setup vid - format on save?, and set up eslint? (see instructions here - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - look up best js extensions / settings for vs code

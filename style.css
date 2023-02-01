@@ -65,14 +65,11 @@ main {
   justify-content: center;
 }
 
-section {
-  width: 100%;
-}
-
 .cart-container {
   display: flex;
   justify-content: flex-end;
   position: relative;
+  cursor: pointer;
 }
 
 .fa-cart-shopping {
